@@ -8,8 +8,6 @@ lockbox: User-friendly CLI over cryptography.io's Fernet symmetric cipher
 
 ---------------
 
-.. image:: https://s3.amazonaws.com/johnwheeler/lockbox.gif
-
 **lockbox** provides a command line interface over cryptography.io's `Fernet symmetric cipher <https://cryptography.io/en/latest/fernet/>`_.
 Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key. lockbox was inspired by the Ruby-based
 `sekrets <https://github.com/ahoward/sekrets>`_ project, but they use different ciphers.
